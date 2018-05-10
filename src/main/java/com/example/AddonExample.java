@@ -9,7 +9,7 @@ public class AddonExample implements IAddon {
 
     @Override
     public void onLoad() {
-        System.out.println("Sucesfully loaded Addon!");
+        System.out.println("Successfully loaded Addon!");
         EventBus.INSTANCE.register(this);
     }
 
